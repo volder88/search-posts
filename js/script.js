@@ -22,7 +22,6 @@ async function searchPost (e) {
                 const groupPosts = document.querySelector('.posts-group')
                 for (let keyArr in result.data) {
                     let value = result.data[keyArr]
-                    console.log(value)
                     let postHTML = `
                         <div class="post__item">
                             <div class="post">Пост: ${value['title']}</div>
