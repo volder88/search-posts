@@ -1,0 +1,57 @@
+body {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+form {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    width: 70%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.text_error {
+    color: #ca0404;
+}
+
+.none {
+    display: none;
+}
+
+.post__item {
+    margin-bottom: 20px;
+}
+
+.posts-group {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.post__item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.post {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.comment {
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
